@@ -66,10 +66,10 @@ p {
 }
 
 .links-container {
-  margin-left: 38rem;
+  margin-left: 27rem;
   background-color: var(--red);
-  width: 62%;
-  padding: 3rem 5rem;
+  width: 100%;
+  padding: 3rem 9rem;
 }
 
 .links-container ul {
@@ -90,10 +90,11 @@ p {
 }
 
 .schedule-button {
-  padding: 1rem 3rem;
+  padding: 0.5rem 4.5rem;
   background-color: var(--bg-black);
   color: var(--white);
   border: none;
+  width: 100%;
 }
 
 /* Header */
@@ -132,7 +133,7 @@ p {
 }
 
 .header-button {
-  width: 55%;
+  width: 40%;
   margin: 1rem 0;
   margin-bottom: 4rem;
   padding: 1rem 2rem;
@@ -186,25 +187,26 @@ p {
 }
 
 span {
+  font-family: 'Commissioner-ExtraBold';
   color: var(--red);
 }
 
 /* Approach */
 .approach {
   display: flex;
-  padding-left: 6rem;
+  padding-left: 3rem;
   padding-bottom: 0;
   background-color: var(--white);
 }
 
 .approach-title h2 {
+  font-family: 'Commissioner-Regular';
   margin-bottom: 1.5rem;
-  margin-left: 7rem;
-  width: 50%;
+  width: 80%;
 }
 
 .approach-title {
-  margin: 5rem -20rem 0 8rem;
+  margin: 7rem -20rem 0 8rem;
   z-index: 1000;
   color: var(--black);
   width: 50%;
@@ -219,9 +221,9 @@ span {
 }
 
 .approach-list {
-  width: 45%;
+  width: 35%;
   height: 35rem;
-  padding: 12rem;
+  padding: 15rem;
   margin-top: -10rem;
   background-color: var(--red);
   color: var(--white);
