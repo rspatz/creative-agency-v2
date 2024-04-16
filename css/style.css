@@ -441,7 +441,6 @@ span {
 
   /* Design is Strategic */
   .strategic-design {
-    display: flex;
     flex-direction: column;
   }
 
@@ -459,7 +458,7 @@ span {
 
   .strategic-text-right {
     background-color: var(--bg-black);
-    height: 20rem;
+    height: 40rem;
   }
 
   .strategic-text-right h2 {
@@ -569,6 +568,8 @@ span {
     background: url('../assets/mobile/image-slide-1.jpg') no-repeat;
     background-size: cover;
     height: 30rem;
+    width: 100%;
+    margin-left: 0;
   }
 
   .image-right-2 {
