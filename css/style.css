@@ -283,6 +283,12 @@ span {
   margin-left: 10rem;
 }
 
+.image-text {
+  color: var(--white);
+  width: 35%;
+  margin: 30rem 0 0 35rem;
+}
+
 .slideshow-controls {
   margin: 1rem 6rem;
 }
