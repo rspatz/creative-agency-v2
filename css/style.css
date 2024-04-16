@@ -13,7 +13,7 @@
 /* Fonts */
 @font-face {
   font-family: 'Commissioner-ExtraBold';
-  src: url('./fonts/Commissioner/static/Commissioner-ExtraBold.ttf');
+  src: url('../fonts/Commissioner/static/Commissioner-ExtraBold.ttf');
   format: 'true-type';
 }
 
@@ -25,7 +25,7 @@
 
 /* Base Styles */
 h1 {
-  font-family: 'Commissioner-Regular';
+  font-family: 'Commissioner-ExtraBold';
   font-size: 5rem;
   line-height: 5.5rem;
 }
@@ -109,7 +109,7 @@ p {
 }
 
 .header-text-left h1 {
-  font-family: 'Commissioner-Regular';
+  font-family: 'Commissioner-ExtraBold';
   font-size: 5rem;
   line-height: 5.5rem;
   font-size: 4rem;
@@ -315,8 +315,8 @@ span {
 }
 
 .footer-title {
-  width: 60%;
-  margin: 3rem 10rem;
+  width: 40%;
+  margin: 3rem 8rem;
 }
 
 .footer-title h2 {
@@ -327,11 +327,11 @@ span {
 
 .footer-button {
   padding: 1rem 3rem;
-  width: 30%;
+  width: 15%;
   background-color: var(--red);
   color: var(--white);
   border: none;
-  margin-left: 10rem;
+  margin-left: 15rem;
 }
 
 .icon {
