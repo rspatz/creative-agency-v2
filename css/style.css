@@ -55,7 +55,7 @@ p {
 
 .nav-container,
 .links-container {
-  flex-direction: row;
+  display: flex;
   width: 96.8%;
   align-items: center;
 }
@@ -73,7 +73,7 @@ p {
 }
 
 .links-container ul {
-  flex-direction: row;
+  display: flex;
   margin: 0 5rem 0 0;
 }
 
@@ -98,7 +98,7 @@ p {
 
 /* Header */
 .header-container {
-  flex-direction: row;
+  display: flex;
 }
 
 .header-text-left {
@@ -143,7 +143,7 @@ p {
 
 /* Design is Strategic */
 .strategic-design {
-  flex-direction: row;
+  display: flex;
   background-color: var(--bg-black);
 }
 
@@ -191,7 +191,7 @@ span {
 
 /* Approach */
 .approach {
-  flex-direction: row;
+  display: flex;
   padding-left: 6rem;
   padding-bottom: 0;
   background-color: var(--white);
@@ -239,7 +239,7 @@ span {
 
 /* Slideshow Section */
 .Container {
-  flex-direction: row;
+  display: flex;
 }
 
 .info-left {
@@ -300,7 +300,7 @@ span {
 
 /* Footer */
 .footer-container {
-  flex-direction: row;
+  display: flex;
   margin: 3rem 0;
   align-items: center;
   /* 'align-items: center' prevents button from stretching */
