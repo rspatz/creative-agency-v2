@@ -340,3 +340,310 @@ span {
   height: 13.45px;
   overflow: hidden;
 }
+
+/* Media Queries: Mobile */
+@media only screen and (max-width: 600px) {
+  /* Top Navigation */
+  .logo {
+    margin-left: 0;
+  }
+
+  .nav-container,
+  .links-container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    /* margin-left: 3rem; */
+    z-index: 1000;
+  }
+
+  .nav-container {
+    height: 12rem;
+  }
+
+  .links-container {
+    background-color: var(--bg-black);
+    width: 50%;
+    padding: 2rem;
+  }
+
+  .links-container ul {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .links-container li {
+    list-style-type: none;
+    margin: 1rem 0;
+  }
+
+  .links-container a {
+    font-family: 'Commissioner-Regular';
+    font-size: 1.25rem;
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  .schedule-button {
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+  }
+
+  /* Header */
+  .header-container {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0;
+  }
+
+  .header-text-left {
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .header-text-left h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin: 2rem 0 2rem 1rem;
+  }
+
+  .header-text-left p {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .header-image-right {
+    height: 16rem;
+    width: 100%;
+    margin-left: 0;
+    background: url(../assets/mobile/image-hero.jpg) no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+  }
+
+  .header-button {
+    width: 55%;
+    margin: 1rem 1rem;
+    margin-bottom: 4rem;
+    padding: 1rem 2rem;
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+  }
+
+  /* Design is Strategic */
+  .strategic-design {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .strategic-image-left {
+    background: url(../assets/mobile/image-strategic.jpg) no-repeat 0 0;
+    background-position: center;
+    background-size: cover;
+    height: 16rem;
+    width: 100%;
+  }
+
+  .text-container {
+    margin: 0;
+  }
+
+  .strategic-text-right {
+    background-color: var(--bg-black);
+    height: 20rem;
+  }
+
+  .strategic-text-right h2 {
+    font-family: 'Commissioner-Regular';
+    font-size: 2rem;
+    width: 90%;
+    margin: 2rem 0 1rem 1.5rem;
+    color: var(--white);
+  }
+
+  .strategic-text-right p {
+    width: 90%;
+    margin: 1rem auto;
+    color: var(--white);
+  }
+
+  .strategic-text-right a {
+    color: var(--red);
+    margin: 0 0 0 1.5rem;
+    text-underline-offset: 0.75rem;
+  }
+
+  span {
+    color: var(--red);
+  }
+
+  /* Approach */
+  .approach {
+    flex-direction: column;
+    padding-bottom: 0;
+    background-color: var(--red);
+  }
+
+  .approach h2 {
+    font-family: 'Commissioner-Regular';
+    font-size: 2rem;
+    width: 75%;
+    line-height: 2.5rem;
+    margin: 6rem 0 1.5rem 2rem;
+  }
+
+  .approach h3 {
+    font-size: 1.2rem;
+  }
+
+  .approach p {
+    margin: 0 0 4rem 0;
+  }
+
+  .approach-title {
+    font-family: 'Commissioner-Regular';
+    color: var(--white);
+    margin: 0;
+    z-index: 1000;
+  }
+
+  .approach-number {
+    font-family: 'Commissioner-ExtraBold';
+    font-weight: 700;
+    font-size: 5rem;
+    opacity: 25%;
+    margin: -2.5rem;
+  }
+
+  .approach-list {
+    width: 69%;
+    height: 32rem;
+    padding: 5rem 5rem 20rem 4rem;
+    margin: 0;
+    background-color: var(--red);
+    color: var(--white);
+  }
+
+  .approach-list li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+  }
+
+  .approach-list p {
+    font-family: 'Commissioner-Regular';
+    font-size: 1rem;
+    width: 100%;
+    list-style-type: none;
+  }
+
+  /* Slideshow Section */
+  .Container {
+    flex-direction: column-reverse;
+  }
+
+  .info-left {
+    height: 25rem;
+    background-color: var(--bg-black);
+    color: var(--white);
+    width: 100%;
+  }
+
+  .info-left h2 {
+    font-family: 'Commissioner-Regular';
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin: 6rem 0 0 2rem;
+    width: 90%;
+  }
+
+  .image-right-1 {
+    background: url('../assets/mobile/image-slide-1.jpg') no-repeat;
+    background-size: cover;
+    height: 30rem;
+  }
+
+  .image-right-2 {
+    background: url('../assets/mobile/image-slide-2.jpg') no-repeat;
+    background-size: cover;
+    height: 30rem;
+  }
+
+  .image-right-3 {
+    background: url('../assets/mobile/image-slide-3.jpg') no-repeat;
+    background-size: cover;
+    height: 30rem;
+  }
+
+  .image-text {
+    font-family: 'Commissioner-ExtraBold';
+    margin: 25rem 0 0 12rem;
+    color: var(--white);
+  }
+
+  .slideshow-controls {
+    margin: 2rem 2rem;
+  }
+
+  .back {
+    margin: 5rem 0 0 0;
+  }
+
+  .forward {
+    margin: 0 0.5rem;
+  }
+
+  .back,
+  .forward {
+    color: var(--red);
+  }
+
+  .image-right {
+    margin-left: 0;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    margin: 3rem 0;
+    padding: 0;
+    align-items: left;
+    /* 'align-items: center' prevents button from stretching */
+    height: 15rem;
+  }
+
+  .footer-title {
+    width: 85%;
+    margin: 0.5rem 0 2rem 2rem;
+  }
+
+  .footer-title h2 {
+    font-family: 'Commissioner-Regular';
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .footer-button {
+    padding: 1rem 3rem;
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    margin-left: 2.25rem;
+    width: 45%;
+  }
+
+  .icon {
+    display: inline-block;
+    width: 16.3px;
+    height: 13.45px;
+    overflow: hidden;
+  }
+}
