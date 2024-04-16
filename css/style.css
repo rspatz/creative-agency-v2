@@ -458,7 +458,8 @@ span {
 
   .strategic-text-right {
     background-color: var(--bg-black);
-    height: 40rem;
+    height: 25rem;
+    width: 90%;
   }
 
   .strategic-text-right h2 {
@@ -470,8 +471,8 @@ span {
   }
 
   .strategic-text-right p {
-    width: 90%;
-    margin: 1rem auto;
+    width: 100%;
+    margin: 1rem;
     color: var(--white);
   }
 
@@ -512,6 +513,7 @@ span {
     font-family: 'Commissioner-Regular';
     color: var(--white);
     margin: 0;
+    width: 100%;
     z-index: 1000;
   }
 
@@ -623,7 +625,7 @@ span {
 
   .footer-title {
     width: 85%;
-    margin: 0.5rem 0 2rem 2rem;
+    margin: 0.5rem 0 2rem 0;
   }
 
   .footer-title h2 {
@@ -633,12 +635,12 @@ span {
   }
 
   .footer-button {
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     background-color: var(--red);
     color: var(--white);
     border: none;
-    margin-left: 2.25rem;
-    width: 45%;
+    margin-left: 0;
+    width: 70%;
   }
 
   .icon {
