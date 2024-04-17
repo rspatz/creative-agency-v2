@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
     <title>Frontend Mentor | Creative single page site Version 2</title>
   </head>
   <body>
@@ -13,14 +15,20 @@
       </div>
 
       <div class="links-container">
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Projects</a></li>
+        <ul class="links-container-list">
+          <li><a class="container-link" href="#">About</a></li>
+          <li><a class="container-link" href="#">Service</a></li>
+          <li><a class="container-link" href="#">Projects</a></li>
         </ul>
         <button class="schedule-button">Schedule a call</button>
       </div>
     </nav>
+
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
 
     <header>
       <div class="header-container">
@@ -182,6 +190,6 @@
         <button class="footer-button">Schedule a Call</button>
       </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

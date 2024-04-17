@@ -348,6 +348,66 @@ span {
     margin-left: 0;
   }
 
+  /* ****************************** */
+  /* Mobile Navigation */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.97);
+    transform: translateX(100%);
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-out;
+
+    /* Hide Navigation */
+    /* display: none; */
+
+    /* 1. Hide element visually */
+    opacity: 0;
+
+    /* 2. Make element unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3. Hide element from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .links-container {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name='close-outline'] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
+    display: none;
+  }
+
+  .links-container-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .container-link:link,
+  .container-link:visited {
+    font-size: 3rem;
+  }
+  /* ****************************** */
+
   .nav-container,
   .links-container {
     flex-direction: column;
@@ -396,6 +456,7 @@ span {
     flex-direction: column-reverse;
     width: 100%;
     margin: 0;
+    z-index: 0;
   }
 
   .header-text-left {

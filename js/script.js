@@ -1,3 +1,11 @@
+// Mobile Navigation
+const btnNavEl = document.querySelector('.btn-mobile-nav');
+const containerEl = document.querySelector('.links-container');
+
+btnNavEl.addEventListener('click', function () {
+  headerEl.classList.toggle('nav-open');
+});
+
 // Carousel
 var slidePosition = 1;
 SlideShow(slidePosition);
