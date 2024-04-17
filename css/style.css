@@ -341,6 +341,103 @@ span {
   overflow: hidden;
 }
 
+/* Media Queries: Tablet */
+@media only screen and (min-width: 600px) {
+  .logo {
+    margin-left: 3rem;
+  }
+
+  .nav-container,
+  .links-container {
+    display: flex;
+    width: 96.8%;
+    align-items: center;
+  }
+
+  .nav-container {
+    height: 8rem;
+    justify-content: space-between;
+  }
+
+  .links-container {
+    margin-left: 8rem;
+    background-color: var(--red);
+    width: 40%;
+    padding: 8rem 9rem;
+  }
+
+  .links-container ul {
+    display: flex;
+    margin: 0 5rem 0 0;
+  }
+
+  .links-container li {
+    list-style-type: none;
+    margin-right: 1.5rem;
+  }
+
+  .links-container a {
+    font-family: 'Commissioner-Regular';
+    font-size: 1rem;
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  .schedule-button {
+    padding: 0.5rem 4.5rem;
+    background-color: var(--bg-black);
+    color: var(--white);
+    border: none;
+    width: 100%;
+  }
+}
+
+/* Header */
+.header-container {
+  display: flex;
+}
+
+.header-text-left {
+  margin: 15rem 0 0 6rem;
+  width: 40%;
+  z-index: 1000;
+}
+
+.header-text-left h1 {
+  font-family: 'Commissioner-ExtraBold';
+  font-size: 5rem;
+  line-height: 5.5rem;
+  font-size: 4rem;
+}
+
+.header-text-left p {
+  margin: 2rem 0;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  width: 99%;
+}
+
+.header-image-right {
+  height: 60rem;
+  width: 100%;
+  margin-top: 4.5rem;
+  margin-left: -20rem;
+  background: url(../assets/desktop/image-hero.jpg) no-repeat 0 0;
+  background-position: top;
+  background-size: cover;
+  z-index: 0;
+}
+
+.header-button {
+  width: 40%;
+  margin: 1rem 0;
+  margin-bottom: 4rem;
+  padding: 1rem 2rem;
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+}
+
 /* Media Queries: Mobile */
 @media only screen and (max-width: 600px) {
   /* Top Navigation */
